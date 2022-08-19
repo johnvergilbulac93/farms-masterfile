@@ -1,0 +1,32 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/utilities";
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.login-box {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-content {
+    width: 100%;
+    overflow: hidden;
+}
+.login-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
